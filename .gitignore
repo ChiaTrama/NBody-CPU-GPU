@@ -1,0 +1,31 @@
+# Compiled files
+/bin/
+/build/
+*.o
+
+# Generated simulation output
+*_trajectory.csv
+*_energy.csv
+/results/generated/
+/figures/generated/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# LaTeX and editor artifacts
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+.vscode/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+*:Zone.Identifier

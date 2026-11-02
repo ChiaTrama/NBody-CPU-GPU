@@ -1,0 +1,10 @@
+backend,kernel,architecture,registers_per_thread,static_shared_bytes,stack_frame_bytes,spill_store_bytes,spill_load_bytes,source
+cuda_naive,velocity update,sm_61,24,0,0,0,0,results/profiling/cuda_naive_final_ptxas_sm61.txt
+cuda_naive,position update,sm_61,22,0,0,0,0,results/profiling/cuda_naive_final_ptxas_sm61.txt
+cuda_naive,Euler step,sm_61,28,0,0,0,0,results/profiling/cuda_naive_final_ptxas_sm61.txt
+cuda_naive,acceleration,sm_61,58,0,0,0,0,results/profiling/cuda_naive_final_ptxas_sm61.txt
+cuda_naive,smoke,sm_61,4,0,0,0,0,results/profiling/cuda_naive_final_ptxas_sm61.txt
+cuda_tiled,velocity update,sm_61,24,0,0,0,0,results/profiling/cuda_tiled_final_ptxas_sm61.txt
+cuda_tiled,position update,sm_61,22,0,0,0,0,results/profiling/cuda_tiled_final_ptxas_sm61.txt
+cuda_tiled,Euler step,sm_61,28,0,0,0,0,results/profiling/cuda_tiled_final_ptxas_sm61.txt
+cuda_tiled,acceleration,sm_61,54,0,0,0,0,results/profiling/cuda_tiled_final_ptxas_sm61.txt
